@@ -1,0 +1,3 @@
+FROM ubuntu
+COPY .vimrc .tmux.conf README.md ./root/
+RUN apt-get upgrade && apt-get update && apt-get install -y vim git curl wget g++ python cmake python-dev python-pip tmux && mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim && cd ~/.vim/bundle && git clone https://github.com/jiangmiao/auto-pairs.git && git clone https://github.com/scrooloose/nerdtree.git && git clone https://github.com/ervandew/supertab.git && git clone https://github.com/scrooloose/syntastic.git && git clone https://github.com/VundleVim/Vundle.vim.git && echo "Don't forget to enable supertab and do PluginInstall in vim, and install ycm"
