@@ -5,31 +5,31 @@ After cloning the repository, you build a docker image, and docker container. Co
 
 #### Vim Plugin Installation ####
 In terminal type:
-`vim<Enter>` \
+`vim<Enter>`
 
-`:PluginInstall<Enter> (respect the capitalization)` \
+`:PluginInstall<Enter> (respect the capitalization)`
 
-`:q!<Enter>` (after installation) \
+`:q!<Enter>` (after installation)
 
-`:q!<Enter>` (exit vim) \
+`:q!<Enter>` (exit vim)
 
-`cd /root/<Enter>` \
+`cd /root/<Enter>`
 #### Enable supertab ####
 In terminal type:
-`cd /root/.vim/bundle/supertab/plugin<Enter>` \
+`cd /root/.vim/bundle/supertab/plugin<Enter>`
 
-`vim supertab.vim<Enter>`\
+`vim supertab.vim<Enter>`
 
-`:source %<Enter>` \
+`:source %<Enter>`
 
-`:wq!<Enter>` \
+`:wq!<Enter>`
 
-`cd /root/<Enter>` \
+`cd /root/<Enter>`
 
 #### YouCompleteMe ####
 In terminal type:
-`cd /root/.vim/bundle/YouCompleteMe<Enter>` \
+`cd /root/.vim/bundle/YouCompleteMe<Enter>`
 
-`./install.py --clang-completer<Enter>` (for c++ language) \
+`./install.py --clang-completer<Enter>` (for c++ language)
 
 `cd /root/<Enter>`
