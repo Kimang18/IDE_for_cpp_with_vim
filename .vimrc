@@ -57,7 +57,7 @@ filetype plugin indent on    " required
 
 colorscheme material
 colorscheme xoria256
-let g:ycm_global_ycm_extra_conf = '/root/.vim/bundle/YouCompleteMe/third_party/ycmd/ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '/root/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
 
 let mapleader=","
 
